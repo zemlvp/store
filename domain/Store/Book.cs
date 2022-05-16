@@ -1,11 +1,13 @@
-﻿namespace Store;
-public class Book
+﻿namespace Store
 {
-    public int Id { get; set; }
-    public string Title { get; }
-    public Book(int id, string title)
+    public class Book
     {
-        Id = id;
-        Title = title;
+        public int Id { get; set; }
+        public string Title { get; }
+        public Book(int id, string title)
+        {
+            Id = id;
+            Title = title;
+        }
     }
 }
